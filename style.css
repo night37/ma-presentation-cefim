@@ -2,11 +2,6 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Serif+KR');
 @import url('https://fonts.googleapis.com/css?family=Bitter');
 
-
-
-
-
-
 body{
   font-family: Bitter;
   }
@@ -28,13 +23,11 @@ body{
 }
 
 .presentation{
-  float:left;
   height: 200px;
-  width: 50%;
 }
 
 .name{
-  float:left;
+ 
   background-color: #4e4e4e;
   line-height: 100px;
   text-align: center;
@@ -45,7 +38,7 @@ body{
 }
   
 .titre{
-  float:left;
+
   line-height: 100px;
   background-color:#3c3c3c;
   text-align: center;
@@ -55,24 +48,7 @@ body{
   width:100%;
   
 }
-.me_contacter{
-  float: right;
-  background-color: #595959;
-  height: 200px;
-  width: 25%;
-  
-}
-.contact_img{
-  height: 30%;
-  font-size:120%;
-  line-height:90px;  
-}
-.contact{
-  text-align: center;
-  border-top:1%;
-  font-size:110%;
-  line-height:5px;  
-}
+
 #corps{
   background-color: red;
   height: 429px;
@@ -80,18 +56,67 @@ body{
 
 .presentation_personnelle{
   float:left;
-  background-color:yellow;
-  width:80%;  
+  background-color:#efefef;
+  width:75%;  
   height: 429px;
+  text-align:justify;
+}
+#WhoIam{
+  text-align:center;
+  margin-top:2%;
+  margin-bottom:1%; 
+}
+#imgbebe{
+  float:left;
+  height:25%;
+  width:13%;
+}
+#born{
+  height: 23%;
+  margin-top: 4%;
+  line-height: 26px;
+}
+#e2pzlogo{
+  float: left;
+  height: 39%;
+  width: 13%;
+}
+#e2pz{
+  height: 20%;
+  margin-top: 3%;
+  line-height: 26px;
 }
 .info_personnelle{
   float:right;
-  background-color: #A11EB3;
-  width:20%; 
+  background-color:#e8e3e3;
+  text-align:left;
+  width:25%; 
   height: 429px;
-
+}
+#titre{
+  font-size:110%;
+  line-height:30px;
+  text-align:center;
+}
+#left{
+  float:left;
+  width:22%; 
+  margin-left:3%;
+  line-height:60px; 
+}
+#right{
+  float:right;
+ 
+  width:72%; 
+  margin-left:3%;
+  line-height:60px; 
+}
+#adresse{
+  line-height: 22px;
+  padding-top: 20px;
 }
 .block{
+  line-height: 40px;
   border:1px solid red;
   width: 250px;
   height: 300px;
@@ -100,15 +125,29 @@ body{
   box-sizing: border-box;
   width: 33.3%;
 }
-
+#footerTitle{
+  text-align: center;
+}
 .block.formations{
-  background-color: #A11EB3;
+  background-color: #e8e3e3;
 }
 
-.block.diplomes{
-  background-color: #FFD65E;
+.block.experience{
+  color:white;
+  background-color: #4e4e4e
 }
 
 .block.competences{
-  background-color :#009adf;;
+  color:white;
+  background-color :#3c3c3c;;
 }
+#liste{
+  margin-left:10%;
+}
+
+
+
+
+
+
+
