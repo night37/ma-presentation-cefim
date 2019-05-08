@@ -49,21 +49,22 @@ body{
   
 }
 
-#corps{
-  background-color: red;
+#corps{ 
   height: 429px;
 }  
 
 .presentation_personnelle{
   float:left;
   background-color:#efefef;
-  width:75%;  
-  height: 429px;
+  width:74.9%;  
+  height: 500px;
   text-align:justify;
 }
 #WhoIam{
+  text-decoration: underline;
+  font-size:120%;
   text-align:center;
-  margin-top:2%;
+  margin-top:1%;
   margin-bottom:1%; 
 }
 #imgbebe{
@@ -72,29 +73,50 @@ body{
   width:13%;
 }
 #born{
+  width: 99%;
   height: 23%;
-  margin-top: 4%;
-  line-height: 26px;
+  margin-top: 3%;
+  line-height: 24px;
 }
 #e2pzlogo{
+ 
   float: left;
-  height: 39%;
+  height: 25.5%;
   width: 13%;
 }
 #e2pz{
+ 
+  width: 99%;
   height: 20%;
-  margin-top: 3%;
-  line-height: 26px;
+  margin-top: 2%;
+  line-height: 24px;
+}
+#futur-img{
+  float: left;
+  height: 26%;
+  margin-top:1.5%;
+  margin-bottom:3%; 
+  width: 13%;
+}
+#futur{
+  text-align:justify;
+  width: 99%;
+  height: 20%;
+  margin-top: 1%;
+  line-height: 24px;
 }
 .info_personnelle{
   float:right;
   background-color:#e8e3e3;
   text-align:left;
   width:25%; 
-  height: 429px;
+  height: 500px;
+  border-left: 0.1px solid black;
+  
 }
 #titre{
-  font-size:110%;
+  margin-top:5%;
+  font-size:120%;
   line-height:30px;
   text-align:center;
 }
@@ -106,7 +128,6 @@ body{
 }
 #right{
   float:right;
- 
   width:72%; 
   margin-left:3%;
   line-height:60px; 
@@ -117,7 +138,7 @@ body{
 }
 .block{
   line-height: 40px;
-  border:1px solid red;
+  border-top:0.1px solid black;
   width: 250px;
   height: 300px;
   float:left;
@@ -142,7 +163,8 @@ body{
   background-color :#3c3c3c;;
 }
 #liste{
-  margin-left:10%;
+  text-align:center;
+  text-align:justify;
 }
 
 
