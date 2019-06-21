@@ -1,13 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Bitter');
-
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
 body{
-    font-family: Bitter;
-    font-size: 110%;
+    font-family: Poppins;
+    font-size: 100%;
+    background:linear-gradient(#f2d9d947,#55A2D6);
+    background-attachment: scroll; 
 }
 h2{
     text-align: center;
 }
-
+p{
+    padding:10px 0 25px 10px;
+    
+    line-height:25px;
+}
 .photo {
     
     height:230px;
@@ -15,14 +21,16 @@ h2{
 }
 .head{
     height: 230px;
-    
 }
+
+
 .identite, .titre{
     height: 50%;
     margin: 0 -15px;
     color:white;
     text-align: center;
     padding-top:2%; 
+  
 }
 .identite{
     background-color: #4e4e4e;
@@ -30,53 +38,68 @@ h2{
 .titre{
     background-color: #3c3c3c;
 }
+ 
+
 .presentation, .contact{
-    padding: 2%;
-    line-height: 40px;
+    line-height: 2  0px;
     height:auto;
     min-height: 500px;
     text-align: center;
     
 }
 
+
 .img {
     line-height: 190px;
 }
+
 .contact{
-    padding-left:5px;
-    padding-top:10%;
-    background-color:#e8e3e3; 
-    line-height: 50px; 
-    display: flex; 
+    padding-left: 40px;
+    text-align: justify;
+    padding-top: 6%;
+    line-height: 38px;
+    display: flex;
+    }
     
-}
 .born, .e2pz, .futur{
     margin-top: 10px;
     display: flex;
 }
 
-li
-{
-list-style-image: url(images/wordpress_logo_51.png);
+.carousel{
+    padding:25px;
+    padding-top: 60px;
+    width:100%;
+    height: auto;
 }
 .formation, .competence, .diplome{
     line-height: 54px;
     padding:2%;
 }
 .formation{
+    text-align: justify;
     color:white;
     height:auto;
-    background-color:#3c3c3c;
-    text-align: center,justify;
- 
+    background-color: rgba(240, 168, 168, 0.30);    
+    border: 0.2px solid rgba(185, 227, 227, 0.50);
+    border-radius: 5% 5% 0 0;   
+    margin: 0 80px 0 70px;
 }
 .competence{
     text-align: justify;
     color:white;
     height:auto;
-    background-color:#4e4e4e;
+    background-color: rgba(240, 168, 168, 0.30);    
+    border: 0.2px solid rgba(185, 227, 227, 0.50);
+    border-radius: 5% 5% 0 0;
+    margin: 0 80px 0 70px; 
 }
 .diplome{
+    text-align: justify;
+    color:white;
     height:auto;
-    background-color:#e8e3e3;
+    background-color: rgba(240, 168, 168, 0.30);    
+    border: 0.2px solid rgba(185, 227, 227, 0.50);
+    border-radius: 5% 5% 0 0;
+    margin: 0 80px 0 70px;
 }
