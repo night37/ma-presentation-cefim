@@ -1,0 +1,60 @@
+body{
+  background-color: white;
+}
+
+p{
+  line-height:25px; 
+  background-color: rgba(185, 227, 227, 0.20);
+  border: 0.2px solid rgba(185, 227, 227, 0.50);
+}
+
+#mixedSlider .MS-content {
+  white-space: nowrap;
+  overflow: hidden;
+  margin: 0 5%;
+}
+
+#mixedSlider .MS-content .item {
+  display: inline-block;
+  width: 33.3333%;
+  position: relative;
+  vertical-align: top;
+  overflow: hidden;
+  height: 100%;
+  white-space: normal;
+  padding: 0 1px;
+}
+
+#mixedSlider .MS-content .item .imgTitle {
+  position: relative;
+  margin-top:10px;
+}
+
+#mixedSlider .MS-content .item .imgTitle .blogTitle {
+  margin: 0;
+  text-align: center;
+  letter-spacing: 2px;
+  color: #252525;
+  font-style: italic;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 100%;
+  bottom: 0;
+  font-weight: bold;
+  font-size: 24px;
+  padding-left: 2px;
+}
+
+ .imgTitle img {
+  height: auto;
+  width: 100%;
+}
+
+#mixedSlider .MS-content .item p {
+  font-size: 14px;
+  padding:10px;
+}
+
+
+
+

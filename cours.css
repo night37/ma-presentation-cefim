@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Bitter');
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+body{
+    font-family: Poppins;
+    font-size: 100%;
+    background:linear-gradient(#f2d9d947,#55A2D6);
+    background-attachment: fixed; 
+}
+
+h2{
+    text-align: center;
+}
+
+p{
+    padding:10px 0 25px 10px;
+    
+    line-height:25px;
+}
+
+.photo {
+    
+    height:230px;
+    background-color: red;
+}
+
+.head{
+    height: 230px;
+}
+
+.identite, .titre{
+    height: 50%;
+    margin: 0 -15px;
+    color:white;
+    text-align: center;
+    padding-top:2%; 
+  
+}
+
+.identite{
+    background-color: #4e4e4e;
+}
+
+.titre{
+    background-color: #3c3c3c;
+}
+ 
+.presentation, .contact{
+    text-align: justify;
+    color:black;
+    height:300px;
+    background-color: rgba(185, 227, 227, 0.25);
+    border:1px solid  rgba(185, 227, 227, 0.80);
+    border-radius: 5% 5% 5% 5%;
+    margin-top: 100px;
+    padding-bottom: 20px;
+     
+}
+
+.img {
+    line-height: 190px;
+}
+
+.contact{
+    padding-left: 40px;
+    text-align: justify;
+    padding-top: 3%;
+    line-height: 38px;
+    display: flex;
+    }
+    
+.born, .e2pz, .futur{
+    margin-top: 10px;
+    display: flex;
+}
+
+.btn-secondary{
+    text-align: justify;
+    color:black;
+    height:auto;
+    background-color: rgba(240, 168, 168, 0.30);    
+    border: 0.2px solid rgba(185, 227, 227, 0.50);
+    border-radius: 5% 5% 0 0;
+    padding-right: 5px;
+}
+
+.btn-secondary:not(:disabled):not(.disabled).active, 
+.btn-secondary:not(:disabled):not(.disabled):active, 
+.show>.btn-secondary.dropdown-toggle{
+    text-align: justify;
+    
+    height:auto;
+    background-color: rgba(240, 168, 168, 0.50);    
+    border: 0.2px solid rgba(185, 227, 227, 0.50);
+    border-radius: 5% 5% 0 0;
+}
+
+.dropdown-menu {
+    text-align: justify;
+    color:black;
+    height:auto;
+    background-color: rgba(240, 168, 168, 0.30);    
+    border: 0.2px solid rgba(185, 227, 227, 0.50);
+    border-radius: 5% 5% 0 0;
+    padding-right: 25px;
+}
