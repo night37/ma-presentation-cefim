@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css?family=Bitter');
+
+
+
+/* 
+// Responsive My Skills Box Widget
+// Made with ❤ by @Pawan_Mall
+// http://www.pawanmall.net 
+*/
+
+
+
+#SkillBox {
+    color:white;
+    text-align: center;
+    font-size: 20px;
+    font-family: bitter;
+    width: 100%;
+    height: auto;
+    background-color:#282c2f;
+    border-radius:20px;
+    -o-border-radius:20px;
+    -webkit-border-radius:20px;
+    -ms-border-radius:20px;
+    -moz-border-radius:20px;  
+    margin-bottom: 60px;
+}
+.skillCompetence{
+    margin-top: 12px;
+}
+#SkillBox img {
+    
+    width: 20%;
+    height: 10%;
+    margin: auto 35%;
+    padding: 10px;
+}
+.SkillBar {
+    width: 95%;
+    height: 45px;
+    position: relative;
+    background: rgba(17, 17, 17, .3);
+    margin: 20px auto;
+}
+#Skill-HTML {
+    width: 0%;
+    height: 50px;
+    position: absolute;
+    background-color: #ea8564;
+}
+#Skill-HTML.on{
+     animation: Animate-HTML 4s forwards ; 
+     -moz-animation: Animate-HTML 4s forwards ; 
+     -webkit-animation: Animate-HTML 4s forwards ; 
+     -o-animation: Animate-HTML 4s forwards ; 
+}
+@keyframes Animate-HTML {
+    from {
+    width: 10px;
+}
+to {
+    width: 70%}
+}@-webkit-keyframes Animate-HTML {
+    from {
+    width: 10px;
+}
+to {
+    width: 70%}
+}@-moz-keyframes Animate-HTML {
+    from {
+    width: 10px;
+}
+to {
+    width: 70%}
+}@-o-keyframes Animate-HTML {
+    from {
+    width: 10px;
+}
+to {
+    width: 70%}
+}
+#Skill-CSS {
+    width: 0%;
+    height: 50px;
+    position: absolute;
+    background-color: #55a69f;
+}
+#Skill-CSS.on{
+    animation: Animate-CSS 4s forwards ; 
+    -moz-animation: Animate-CSS 4s forwards ; 
+    -webkit-animation: Animate-CSS 4s forwards ; 
+    -o-animation: Animate-CSS 4s forwards ; 
+}
+@keyframes Animate-CSS {
+    from {
+    width: 10px;
+}
+to {
+    width: 60%}
+}@-webkit-keyframes Animate-CSS {
+    from {
+    width: 10px;
+}
+to {
+    width: 60%}
+}@-moz-keyframes Animate-CSS {
+    from {
+    width: 10px;
+}
+to {
+    width: 60%}
+}@-o-keyframes Animate-CSS {
+    from {
+    width: 10px;
+}
+to {
+    width: 60%}
+}
+#Skill-jQuery {
+    width: 0%;
+    height: 50px;
+    position: absolute;
+    background-color: #c44e45;;
+}
+#Skill-jQuery.on{
+    animation: Animate-jQuery 4s forwards ; 
+    -moz-animation: Animate-jQuery 4s forwards; 
+    -webkit-animation: Animate-jQuery 4s forwards; 
+    -o-animation: Animate-jQuery 4s forwards; 
+}
+@keyframes Animate-jQuery {
+    from {
+    width: 10px;
+}
+to {
+    width: 30%}
+}@-webkit-keyframes Animate-jQuery {
+    from {
+    width: 10px;
+}
+to {
+    width: 30%}
+}@-moz-keyframes Animate-jQuery {
+    from {
+    width: 10px;
+}
+to {
+    width: 30%}
+}@-o-keyframes Animate-jQuery {
+    from {
+    width: 10px;
+}
+to {
+    width: 30%}
+}
+#Skill-JS {
+    width: 0%;
+    height: 50px;
+    position: absolute;
+    background-color: #c44e45;
+}
+#Skill-JS.on{
+    animation: Animate-JS 4s forwards ; 
+    -moz-animation: Animate-JS 4s forwards; 
+    -webkit-animation: Animate-JS 4s forwards; 
+    -o-animation: Animate-JS 4s forwards; 
+}
+@keyframes Animate-JS {
+    from {
+    width: 10px;
+}
+to {
+    width: 30%}
+}@-webkit-keyframes Animate-JS {
+    from {
+    width: 10px;
+}
+to {
+    width: 20%}
+}@-moz-keyframes Animate-JS {
+    from {
+    width: 10px;
+}
+to {
+    width: 30%}
+}@-o-keyframes Animate-JS {
+    from {
+    width: 10px;
+}
+to {
+    width: 0%}
+}
+#Skill-PYTHON {
+    width: 0%;
+    height: 50px;
+    position: absolute;
+    background-color: #c44e45;
+}
+#Skill-PYTHON.on{
+    animation: Animate-PYTHON 4s forwards ; 
+    -moz-animation: Animate-PYTHON 4s forwards; 
+    -webkit-animation: Animate-PYTHON 4s forwards; 
+    -o-animation: Animate-PYTHON 4s forwards; 
+}
+@keyframes Animate-PYTHON {
+    from {
+    width: 10px;
+}
+to {
+    width: 30%}
+}@-webkit-keyframes Animate-PYTHON {
+    from {
+    width: 10px;
+}
+to {
+    width: 30%}
+}@-moz-keyframes Animate-PYTHON {
+    from {
+    width: 10px;
+}
+to {
+    width: 30%}
+}@-o-keyframes Animate-PYTHON {
+    from {
+    width: 10px;
+}
+to {
+    width: 30%}
+}
+
+#Skill-BOOTSTRAP {
+    width: 0%;
+    height: 50px;
+    position: absolute;
+    background-color: #55a69f;
+}
+#Skill-BOOTSTRAP.on{
+    animation: Animate-BOOTSTRAP 4s forwards ; 
+    -moz-animation: Animate-BOOTSTRAP 4s forwards; 
+    -webkit-animation: Animate-BOOTSTRAP 4s forwards; 
+    -o-animation: Animate-BOOTSTRAP 4s forwards; 
+}
+@keyframes Animate-BOOTSTRAP {
+    from {
+    width: 10px;
+}
+to {
+    width: 60%}
+}@-webkit-keyframes Animate-BOOTSTRAP{
+    from {
+    width: 20px;
+}
+to {
+    width: 60%}
+}@-moz-keyframes Animate-BOOTSTRAP{
+    from {
+    width: 10px;
+}
+to {
+    width: 60%}
+}@-o-keyframes Animate-BOOTSTRAP {
+    from {
+    width: 10px;
+}
+to {
+    width: 60%}
+
+
+
+
+
+}
+.Skill-Area {
+    z-index: 1;
+    float: left;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 15px;
+    text-shadow: none;
+    color: #fff;
+    font-family: Lato-Regular, sans-serif;
+    font-size: 18px;
+}
+.PercentText {
+    z-index: 3;
+    position: relative;
+    padding-right: 15px;
+    margin-top: 15px;
+    float: right;
+    text-shadow: none;
+    color: #fff;
+    font-family: Lato-Regular, sans-serif;
+    font-size: 18px;
+}
